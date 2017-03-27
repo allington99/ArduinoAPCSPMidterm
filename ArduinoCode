@@ -1,12 +1,6 @@
 /*
- SparkFun Inventor's Kit
- Example sketch 16
- Spark Fun Electronics
- Oct. 7, 2014
-
  Simon Says is a memory game. Start the game by pressing one of the four buttons. When a button lights up, 
- press the button, repeating the sequence. The sequence will get longer and longer. The game is won after 
- 13 rounds.
+ press the button, repeating the sequence. The sequence will get longer and longer.
 
  Generates random sequence, plays music, and displays button lights.
 
@@ -22,11 +16,6 @@
  Simon Says game originally written in C for the PIC16F88.
  Ported for the ATmega168, then ATmega328, then Arduino 1.0.
  Fixes and cleanup by Joshua Neal <joshua[at]trochotron.com>
-
- This sketch was written by SparkFun Electronics,
- with lots of help from the Arduino community.
- This code is completely free for any use.
- Visit http://www.arduino.cc to learn about the Arduino.
  */
 
 /*************************************************
@@ -145,8 +134,8 @@
 #define BUZZER2  5
 
 // Define game parameters
-#define ROUNDS_TO_WIN      5 //Number of rounds to succesfully remember before you win. 13 is do-able.
-#define ENTRY_TIME_LIMIT   5000 //Amount of time to press a button before game times out. 3000ms = 3 sec
+#define ROUNDS_TO_WIN      5 //Number of rounds to succesfully remember before you win.
+#define ENTRY_TIME_LIMIT   5000 //Amount of time to press a button before game times out. 5000ms = 5 sec
 
 #define MODE_MEMORY  0
 #define MODE_BATTLE  1
