@@ -104,7 +104,7 @@
 #define LED_YELLOW  7
 
 // Button pin definitions
-#define TouchButton    13
+#define TouchButton    4
 #define BUTTON_GREEN  12
 #define BUTTON_BLUE   11
 #define LightSense A0
@@ -153,15 +153,6 @@ void setup()
   
   //Mode checking
   gameMode = MODE_MEMORY; // By default, we're going to play the memory game
-
-  // Check to see if the lower right button is pressed
-  if (checkButton() == CHOICE_GREEN) play_beegees();
-
-  // Check to see if upper right button is pressed
-  if (checkButton() == CHOICE_GREEN)
-void loop()
-{
- 
 
   attractMode(); // Blink lights while waiting for user to press a button
 
